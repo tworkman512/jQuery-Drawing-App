@@ -64,5 +64,7 @@ $canvas.mousedown(function(e){
   }
 }).mouseup(function(){
   mouseDown = false;
+}).mouseleave(function(){
+  $canvas.mouseup();
 });
   
